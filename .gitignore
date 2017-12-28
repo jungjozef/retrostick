@@ -1,0 +1,7 @@
+*.idea
+*.iml
+nbproject
+target
+dependency-reduced-pom.xml
+
+
