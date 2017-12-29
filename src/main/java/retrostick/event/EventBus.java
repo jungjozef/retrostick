@@ -9,7 +9,7 @@ import retrostick.gpio.GPIOService;
  * @author jungj
  */
 public class EventBus {
-    private final ExecutorService executorService = Executors.newFixedThreadPool(6);
+    private final ExecutorService executorService = Executors.newCachedThreadPool();
     private final GPIOService gpioService;
     
     
